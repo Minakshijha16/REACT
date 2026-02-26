@@ -1,0 +1,31 @@
+{
+  "name": "namaste-react-1",
+  "version": "1.0.0",
+  "description": "hello this is namaste react",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "namaste",
+    "react",
+    "mini"
+  ],
+  "author": "Minakshi Jha",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "dom": "^0.0.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.1",
+    "router": "^2.2.0"
+  },
+  "browsersList": [
+    "last 2 versions"
+  ]
+}
