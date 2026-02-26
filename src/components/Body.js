@@ -12,7 +12,7 @@ const Body = () => {
         const data = await fetch("https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=22.6687991&lng=88.2813944&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING%22");
         const json = await data.json();
         console.log(json);
-        setListofRestaurant(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+        setListofRestaurant(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     }
 
     const [SearchText, setSearchText] = useState("");
